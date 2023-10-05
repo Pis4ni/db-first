@@ -1,15 +1,16 @@
-
 | **NOME**              | **TIPO**      | **ATTRIBUTI**               |
 | --------------------- | ------------- | --------------------------- |
-| ID                    | BIGINT        | PRIMARY KEY, AUTO_INCREMENT |
-| Marca                 | VARCHAR(30)   | NOT NULL                    |
-| Modello               | VARCHAR(50)   | NOT NULL                    |
-| Anno_Produzione       | YEAR          | NULL                        |
-| Anno_Immatricolazione | YEAR          | NULL                        |
-| Km_Percorsi           | INT           | UNSIGNED, NULL              |
-| Numero_Proprietari    | VARCHAR(20)   | NULL                        |
-| Incidentata_Bool      | CHAR(1)       | DEFAULT '0'                 |
-| Tipo_Carburante       | VARCHAR(20)   | NULL                        |
-| Cilindrata_cc         | INT           | UNSIGNED, NULL              |
-| Potenza_Motore_KW     | INT           | UNSIGNED, NULL              |
-| Prezzo                | DECIMAL(10,2) | NULL                        |
+| id                    | BIGINT        | PRIMARY KEY, AUTO_INCREMENT |
+| marca                 | VARCHAR(30)   | NOT NULL                    |
+| modello               | VARCHAR(50)   | NOT NULL                    |
+| anno_Produzione       | YEAR          | NULL                        |
+| anno_Immatricolazione | YEAR          | NULL                        |
+| km_Percorsi           | INT           | UNSIGNED, NULL              |
+| numero_Proprietari    | CHAR(1)       | NULL                        |
+| incidentata_Bool      | TINYINT       | DEFAULT (0)                 |
+| tipo_Carburante       | CHAR(1)       | NULL                        |
+| cilindrata_cc         | INT           | UNSIGNED, NULL              |
+| potenza_Motore_KW     | INT           | UNSIGNED, NULL              |
+| prezzo                | DECIMAL(10,2) | NULL                        |
+
+<!-- todo  -->
